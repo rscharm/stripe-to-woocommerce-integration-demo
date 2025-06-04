@@ -1,0 +1,20 @@
+{
+  "name": "stripe-to-woocommerce-integration-demo",
+  "version": "1.0.0",
+  "description": "An webhook handler that integrates Stripe Payment Links with WooCommerce using REST API, with special handling for Subscriptions and Memberships.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "stripe": "^18.2.1",
+    "winston": "^3.17.0"
+  }
+}
